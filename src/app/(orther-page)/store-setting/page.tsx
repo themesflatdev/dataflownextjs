@@ -1,0 +1,42 @@
+import Layout from "@/components/layout/Layout";
+import StoreSettingForm from "@/components/orther-page/StoreSettingForm";
+import React from "react";
+
+export const metadata = {
+    title: "Dataflow - eCommerce Admin Dashboard Nextjs Template",
+    description: "Dataflow - eCommerce Admin Dashboard Nextjs Template",
+};
+
+export default function page() {
+    return (
+        <>
+            <Layout>
+                <div className="flex items-center flex-wrap justify-between gap20 mb-30">
+                    <h3>Store Setting</h3>
+                    <ul className="breadcrumbs flex items-center flex-wrap justify-start gap10">
+                        <li>
+                            <a href={"/"}>
+                                <div className="text-tiny">Dashboard</div>
+                            </a>
+                        </li>
+                        <li>
+                            <i className="icon-chevron-right"></i>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div className="text-tiny">Online Store</div>
+                            </a>
+                        </li>
+                        <li>
+                            <i className="icon-chevron-right"></i>
+                        </li>
+                        <li>
+                            <div className="text-tiny">Store Setting</div>
+                        </li>
+                    </ul>
+                </div>
+                <StoreSettingForm />
+            </Layout>
+        </>
+    );
+}

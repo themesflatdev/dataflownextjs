@@ -1,0 +1,9 @@
+@use "sass:meta";
+@import "../icon/style.css";
+
+// CSS
+@import "../css/bootstrap-select.min.css";
+@import "../css/bootstrap.css";
+@import "../css/swiper-bundle.min.css";
+@import "../css/animate.min.css";
+@include meta.load-css("app.scss");
