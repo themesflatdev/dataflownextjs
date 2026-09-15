@@ -13,10 +13,11 @@ const ClearButton1 = ({ onClear }: ClearButton1Props) => {
 
     useEffect(() => {
         const clear = () => {
-            document.body.classList.remove("dark-theme");
+            document.body.classList.add("dark-theme");
+            document.body.classList.remove("light-theme");
 
             const input = document.querySelector(
-                ".theme-dark-light .light input"
+                ".theme-dark-light .dark input"
             ) as HTMLInputElement | null;
 
             if (input) {

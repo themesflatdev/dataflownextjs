@@ -18,9 +18,9 @@ const setLogoSrc = (id: string, src: string) => {
 const ThemeSwitch = ({ radioBtn }: ThemeSwitchProps) => {
     const [theme, setTheme] = useState<string>(() => {
         if (typeof window !== "undefined") {
-            return localStorage.getItem("theme") || "light-theme";
+            return localStorage.getItem("theme") || "dark-theme";
         }
-        return "light-theme";
+        return "dark-theme";
     });
 
     const toggleTheme = () => {

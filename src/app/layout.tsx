@@ -47,7 +47,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
     return (
         <html lang="en">
-            <body className={albertSans.variable}>{children}</body>
+            <body className={`${albertSans.variable} dark-theme`}>{children}</body>
         </html>
     );
 }
