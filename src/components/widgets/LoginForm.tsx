@@ -152,7 +152,7 @@ export default function LoginForm() {
                             <div className="line"></div>
                         </div>
 
-                        <a href="#" className="tf-btn-2">
+                        <a href="/" className="tf-btn-2">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="23"
@@ -200,7 +200,7 @@ export default function LoginForm() {
                             <span className="">Sign in with Google</span>
                         </a>
 
-                        <a href="#" className="tf-btn-2">
+                        <a href="/" className="tf-btn-2">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="23"

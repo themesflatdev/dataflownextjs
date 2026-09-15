@@ -210,11 +210,11 @@ export default function RegisterForm() {
                             <div className="line"></div>
                         </div>
 
-                        <a href="#" className="tf-btn-2">
+                        <a href="/" className="tf-btn-2">
                             <span>Sign in with Google</span>
                         </a>
 
-                        <a href="#" className="tf-btn-2">
+                        <a href="/" className="tf-btn-2">
                             <span>Sign in with Facebook</span>
                         </a>
                     </div>
